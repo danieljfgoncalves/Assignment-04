@@ -53,7 +53,7 @@ NSString *getRandomMake(NSArray *makes) {
     int maximum = (int)[makes count];
     int randomIndex = arc4random_uniform(maximum);
     return makes[randomIndex];
-} */
+}
 
 // Static function declaration
 static int getRandomInteger(int, int);
@@ -61,6 +61,24 @@ static int getRandomInteger(int, int);
 // Static function implementation
 static int getRandomInteger(int minimum, int maximum) {
     return arc4random_uniform((maximum - minimum) + 1) + minimum;
+} */
+
+
+int countByTwo() {
+    static int currentCount = 0;
+    currentCount += 2;
+    return currentCount;
 }
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        NSLog(@"%d", countByTwo());    // 2
+        NSLog(@"%d", countByTwo());    // 4
+        NSLog(@"%d", countByTwo());    // 6
+    }
+    return 0;
+}
+
+
 
 
