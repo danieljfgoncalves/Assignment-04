@@ -12,8 +12,14 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSDictionary *makesAndModels = @{
+                                         @"Ford": @[@"Explorer", @"F-150"],
+                                         @"Honda": @[@"Accord", @"Civic", @"Pilot"],
+                                         @"Nissan": @[@"370Z", @"Altima", @"Versa"],
+                                         @"Porsche": @[@"911 Turbo", @"Boxster", @"Cayman S"]
+                                         };
+        NSString *randomCar = CUGetRandomMakeAndModel(makesAndModels);
+        NSLog(@"Selected a %@", randomCar);
     }
     return 0;
 }
