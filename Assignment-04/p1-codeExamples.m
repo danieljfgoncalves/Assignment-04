@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
               randomNumber);
     }
     return 0;
-} */
+}
 
 NSString *getRandomMake(NSArray *makes) {
     int maximum = (int)[makes count];
@@ -35,4 +35,23 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Selected a %@", getRandomMake(makes));
     }
     return 0;
+} */
+
+// Declaration
+NSString *getRandomMake(NSArray *);
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        NSArray *makes = @[@"Honda", @"Ford", @"Nissan", @"Porsche"];
+        NSLog(@"Selected a %@", getRandomMake(makes));
+    }
+    return 0;
 }
+
+// Implementation
+NSString *getRandomMake(NSArray *makes) {
+    int maximum = (int)[makes count];
+    int randomIndex = arc4random_uniform(maximum);
+    return makes[randomIndex];
+}
+
