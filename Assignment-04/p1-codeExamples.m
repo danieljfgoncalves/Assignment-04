@@ -61,7 +61,7 @@ static int getRandomInteger(int, int);
 // Static function implementation
 static int getRandomInteger(int minimum, int maximum) {
     return arc4random_uniform((maximum - minimum) + 1) + minimum;
-} */
+}
 
 
 int countByTwo() {
@@ -77,7 +77,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d", countByTwo());    // 6
     }
     return 0;
-}
+} */
+
+
 
 
 

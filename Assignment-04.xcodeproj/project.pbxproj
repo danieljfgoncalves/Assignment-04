@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4C469321AD5B00200D1AA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469311AD5B00200D1AA73 /* main.m */; };
 		E4C469391AD5B03200D1AA73 /* p1-codeExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469381AD5B03200D1AA73 /* p1-codeExamples.m */; };
+		E4C4693D1AD5C3DA00D1AA73 /* CarUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4693C1AD5C3DA00D1AA73 /* CarUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		E4C4692E1AD5B00200D1AA73 /* Assignment-04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment-04"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C469311AD5B00200D1AA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4C469381AD5B03200D1AA73 /* p1-codeExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "p1-codeExamples.m"; sourceTree = "<group>"; };
+		E4C4693B1AD5C3DA00D1AA73 /* CarUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarUtilities.h; sourceTree = "<group>"; };
+		E4C4693C1AD5C3DA00D1AA73 /* CarUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 		E4C469251AD5B00200D1AA73 = {
 			isa = PBXGroup;
 			children = (
+				E4C4693A1AD5C3B200D1AA73 /* CarUtilities */,
 				E4C469301AD5B00200D1AA73 /* Assignment-04 */,
 				E4C4692F1AD5B00200D1AA73 /* Products */,
 			);
@@ -63,6 +67,15 @@
 				E4C469381AD5B03200D1AA73 /* p1-codeExamples.m */,
 			);
 			path = "Assignment-04";
+			sourceTree = "<group>";
+		};
+		E4C4693A1AD5C3B200D1AA73 /* CarUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4693B1AD5C3DA00D1AA73 /* CarUtilities.h */,
+				E4C4693C1AD5C3DA00D1AA73 /* CarUtilities.m */,
+			);
+			name = CarUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C469391AD5B03200D1AA73 /* p1-codeExamples.m in Sources */,
+				E4C4693D1AD5C3DA00D1AA73 /* CarUtilities.m in Sources */,
 				E4C469321AD5B00200D1AA73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
