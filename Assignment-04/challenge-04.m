@@ -14,7 +14,7 @@ NSString* theString(NSString* string) {
     return string;
 }
 
-int main (int argc, char * argv[]) {
+int main5 (int argc, char * argv[]) {
     @autoreleasepool {
         
         NSString* returnedString = theString(@"What's up?");

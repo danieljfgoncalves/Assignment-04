@@ -14,6 +14,7 @@
 		E4C469551AD63B8200D1AA73 /* Challenge-02.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469541AD63B8200D1AA73 /* Challenge-02.m */; };
 		E4C469571AD63C3900D1AA73 /* challenge-03.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469561AD63C3900D1AA73 /* challenge-03.m */; };
 		E4C469591AD63D8D00D1AA73 /* challenge-04.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469581AD63D8D00D1AA73 /* challenge-04.m */; };
+		E4C4695B1AD63FC700D1AA73 /* challenge-05.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4695A1AD63FC700D1AA73 /* challenge-05.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		E4C469541AD63B8200D1AA73 /* Challenge-02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Challenge-02.m"; sourceTree = "<group>"; };
 		E4C469561AD63C3900D1AA73 /* challenge-03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "challenge-03.m"; sourceTree = "<group>"; };
 		E4C469581AD63D8D00D1AA73 /* challenge-04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "challenge-04.m"; sourceTree = "<group>"; };
+		E4C4695A1AD63FC700D1AA73 /* challenge-05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "challenge-05.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E4C469541AD63B8200D1AA73 /* Challenge-02.m */,
 				E4C469561AD63C3900D1AA73 /* challenge-03.m */,
 				E4C469581AD63D8D00D1AA73 /* challenge-04.m */,
+				E4C4695A1AD63FC700D1AA73 /* challenge-05.m */,
 			);
 			path = "Assignment-04";
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				E4C469571AD63C3900D1AA73 /* challenge-03.m in Sources */,
 				E4C469531AD6385D00D1AA73 /* challenge-01.m in Sources */,
 				E4C469551AD63B8200D1AA73 /* Challenge-02.m in Sources */,
+				E4C4695B1AD63FC700D1AA73 /* challenge-05.m in Sources */,
 				E4C469321AD5B00200D1AA73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
