@@ -11,7 +11,7 @@
 //  Ch02. What output would you expect from the following program?
 
 
-int main (int argc, char * argv[]) {
+int main3 (int argc, char * argv[]) {
     @autoreleasepool {
         char c, d;
         c = 'd';
