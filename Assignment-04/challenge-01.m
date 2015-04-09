@@ -16,7 +16,7 @@ float fahrenheitToCelsius(float f) {
     return celsius;
 }
 
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSLog(@"It is %.02f ºC.", fahrenheitToCelsius(27)); // float with two decimal places.
