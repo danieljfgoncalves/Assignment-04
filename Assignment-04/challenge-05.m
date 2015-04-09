@@ -22,7 +22,7 @@ int higherValueOfTwoInt(int a, int b) {
     return 0;
 }
 
-int main (int argc, char * argv[]) {
+int main6 (int argc, char * argv[]) {
     @autoreleasepool {
         
         higherValueOfTwoInt(745, 450);
