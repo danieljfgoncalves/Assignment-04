@@ -15,7 +15,7 @@ int sum(int a, int b) {
     return result;
 }
 
-int main (int argc, char * argv[]) {
+int main4 (int argc, char * argv[]) {
     @autoreleasepool {
         
         int a = 20;
